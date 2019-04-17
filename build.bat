@@ -1,4 +1,6 @@
 
+@echo off
+
 REM Simple compile and link script
 
 REM Compiles as mips big endian elf format, as qemu requires this, so objdump
