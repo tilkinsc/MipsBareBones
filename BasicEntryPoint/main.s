@@ -14,13 +14,14 @@
 
 
 .text
+
 .global _start
 _start:
 	
 	
 	
 .hang:
-	pause
+	wait
 	j .hang
 
 
