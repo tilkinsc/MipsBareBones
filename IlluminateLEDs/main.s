@@ -20,6 +20,7 @@ _start:
 	
 	xor $t0, $t0
 	
+	/* Write to this address to manipulate the FPGA LEDs */
 	or $t0, 0x1F000408
 	
 	/* Set to which LED you want to illuminate 0-7 */
